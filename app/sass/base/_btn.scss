@@ -1,0 +1,43 @@
+
+// =============================================================================
+// BTN VAR
+// =============================================================================
+/* buttons */
+.btn {
+	font-size: 13px;
+	line-height: 1;
+	font-weight: 300;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	&.btn-border-green{
+		min-width: 145px;
+		height: auto;
+		text-transform: uppercase;
+		color: #62c14e;
+		border: 2px solid #62c14e;
+		padding: 9.5px 20px;
+		text-decoration: none;
+		margin: 0 0 0 20px;
+		font-weight: 500;
+		&:hover{
+			color: #fff;
+			background: #62c14e;
+		}
+	}
+	&.btn-bg-clr{
+		font-size: 21px;
+		line-height: 1;
+		font-weight: 400;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 27px 0;
+		text-decoration: none;
+		&:hover{
+			background: darken(#62c14e, 10);
+		}
+	}
+}
+
+// end CUSTOM BTN
